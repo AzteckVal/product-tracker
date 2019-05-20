@@ -1,0 +1,11 @@
+version: '2'
+services:
+  producttracker-postgresql:
+    image: postgres:11.2
+    # volumes:
+    #     - ~/volumes/jhipster/productTracker/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=productTracker
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "productTracker",
+    "packageName": "ro.aztek.val.com.tracker.product",
+    "packageFolder": "ro/aztek/val/com/tracker/product",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "ZGE1NzQ3YTZjZmEyYmY3YTE2MDdiY2RiNjk3Yjg4OGU5NWIzZjA0Mzc4MzUyYTIwZGZjNDJhZWQxMDUxMjc5Yjg3MzBlYzg2ZTQyYzhhMTVjOGY3NzMwMTRiNTdmNDQ5NmFjZjRmMjgyMjIzM2ZmOTBlNzI0Y2JmN2MyNTc4ZjA=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "AzteckVal",
+  "repository-name": "product-tracker"
+}
