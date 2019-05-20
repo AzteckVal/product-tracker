@@ -32,9 +32,7 @@
     "clientTheme": "none",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
-    "otherModules": [],
-    "herokuAppName": "cryptic-cove-19229",
-    "herokuDeployType": "git"
+    "otherModules": []
   },
   "git-provider": "GitHub",
   "git-company": "AzteckVal",
